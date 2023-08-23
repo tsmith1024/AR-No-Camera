@@ -11,6 +11,9 @@
 		A6F9F2242A95476600EDAE20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F9F2232A95476600EDAE20 /* ContentView.swift */; };
 		A6F9F2262A95476700EDAE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F9F2252A95476700EDAE20 /* Assets.xcassets */; };
 		A6F9F2292A95476700EDAE20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F9F2282A95476700EDAE20 /* Preview Assets.xcassets */; };
+		A6F9F2302A95479400EDAE20 /* ARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F9F22F2A95479400EDAE20 /* ARViewRepresentable.swift */; };
+		A6F9F2362A954E8D00EDAE20 /* workshop.skybox in Resources */ = {isa = PBXBuildFile; fileRef = A6F9F2352A954E8D00EDAE20 /* workshop.skybox */; };
+		A6F9F2382A96489900EDAE20 /* city.skybox in Resources */ = {isa = PBXBuildFile; fileRef = A6F9F2372A96489800EDAE20 /* city.skybox */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A6F9F2232A95476600EDAE20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A6F9F2252A95476700EDAE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6F9F2282A95476700EDAE20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6F9F22F2A95479400EDAE20 /* ARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewRepresentable.swift; sourceTree = "<group>"; };
+		A6F9F2352A954E8D00EDAE20 /* workshop.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = workshop.skybox; sourceTree = "<group>"; };
+		A6F9F2372A96489800EDAE20 /* city.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = city.skybox; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		A6F9F2202A95476600EDAE20 /* AR-No-Camera */ = {
 			isa = PBXGroup;
 			children = (
+				A6F9F2372A96489800EDAE20 /* city.skybox */,
+				A6F9F2352A954E8D00EDAE20 /* workshop.skybox */,
+				A6F9F22F2A95479400EDAE20 /* ARViewRepresentable.swift */,
 				A6F9F2212A95476600EDAE20 /* AR_No_CameraApp.swift */,
 				A6F9F2232A95476600EDAE20 /* ContentView.swift */,
 				A6F9F2252A95476700EDAE20 /* Assets.xcassets */,
@@ -127,6 +136,8 @@
 			files = (
 				A6F9F2292A95476700EDAE20 /* Preview Assets.xcassets in Resources */,
 				A6F9F2262A95476700EDAE20 /* Assets.xcassets in Resources */,
+				A6F9F2382A96489900EDAE20 /* city.skybox in Resources */,
+				A6F9F2362A954E8D00EDAE20 /* workshop.skybox in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +150,7 @@
 			files = (
 				A6F9F2242A95476600EDAE20 /* ContentView.swift in Sources */,
 				A6F9F2222A95476600EDAE20 /* AR_No_CameraApp.swift in Sources */,
+				A6F9F2302A95479400EDAE20 /* ARViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
